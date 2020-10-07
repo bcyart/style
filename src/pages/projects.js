@@ -9,10 +9,10 @@ import {ProjectsArrow,ProjectsHeader,ProjectsContainer,ProjectItemHeader} from '
 function Projects({location}) {
 let pagetitle;
 let keys="default";
-
+let myComp=location.state.comp;
 
     let projectitems;
-    switch(location.state.comp) {
+    switch(myComp) {
         case "bannerList":
             projectitems=bannerList;
             pagetitle="Banner";

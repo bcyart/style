@@ -172,7 +172,7 @@ height: 70vh;
 
 export const BannerText=styled.h2`
 color:${({ dark }) => dark ? 'black' : 'white'};
-margin-top:150px;
+margin-top:10px;
 width: 100%;
 padding:0.5rem;
   font-size:min(2.23em,4vh);
@@ -180,6 +180,7 @@ padding:0.5rem;
   margin-bottom:200px;
 
   @media only screen and (min-width: 600px) {
+    margin-top:150px;
     margin-left: 16rem;
     width: 43%;
     margin-bottom:0;

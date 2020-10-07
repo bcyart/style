@@ -304,10 +304,7 @@ else{
 <DDDModel/>
 </ModelContainer>
  <BannerText dark={dark}>
- BCY ART’ a hoş geldiniz. Burası isteklerin 
- ve fikirlerin sanatla harmanlanıp, filme 
- dönüştüğü yer. Kısaca burası sinematik
-  çalışmaların doğduğu topraklar.
+<MyBannerText/>
  </BannerText>
  <ShowReel />
 <AllProjects  dark={dark} open={open} setOpen={setOpen} />
@@ -360,9 +357,16 @@ const Header=({open,setOpen,setDark,dark})=>(
 
 );
 
-
+const MyBannerText = ()=>(
+  <div loading="lazy" >
+     BCY ART’ a hoş geldiniz. Burası isteklerin 
+ ve fikirlerin sanatla harmanlanıp, filme 
+ dönüştüğü yer. Kısaca burası sinematik
+  çalışmaların doğduğu topraklar.
+  </div>
+)
 const MainLogo = () => (
- <div> 
+ <div lodaing="lazy"> 
     <svg xmlns="http://www.w3.org/2000/svg" width="280.874" height="60" viewBox="0 0 280.874 60">
   <g  id="svgbcy" transform="translate(-46 518.037)">
     <path id="Path_21" data-name="Path 21" d="M428.4-517.409c-1.64.519-5.4,2.431-5.4,2.788,0,.065,1.367,2.269,3.007,4.959l3.007,4.862,3.827-6.288c2.118-3.436,3.827-6.418,3.827-6.612C436.666-518.284,430.551-518.057,428.4-517.409Z" transform="translate(-248.196)"/>

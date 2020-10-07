@@ -28,7 +28,9 @@ body{
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
 }
-
+.svg-part{
+  background:black;
+}
 }
 
 body::-webkit-scrollbar {

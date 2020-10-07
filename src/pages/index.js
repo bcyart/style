@@ -73,7 +73,7 @@ else{
     />
       <GlobalStyle open={open} dark={dark}/>  
     
-< NavigationContainer dark={dark}    open={open} setOpen={setOpen}/>
+< NavigationContainer dark={dark} comp={comp}   open={open} setOpen={setOpen}/>
 <Header open={open} setOpen={setOpen} dark={dark} setDark={setDark}/>
 <ModelContainer  dark={dark}>
 <DDDModel/>

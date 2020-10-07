@@ -16,5 +16,7 @@ module.exports = {
     icon: `/static/favicon.ico`,
   },
   /* Your site config here */
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [`gatsby-plugin-react-helmet`,{
+    resolve: `gatsby-plugin-styled-components`}
+],
 }

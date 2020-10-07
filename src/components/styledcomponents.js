@@ -592,7 +592,7 @@ a:hover{
 export const NavFooterWrapper=styled.div`
 
 position:relative;
-top:75vh;
+top:60vh;
 margin-left:0;
     padding: 0 2rem;
     color:${({ dark }) => dark ? 'black' : 'white'};
@@ -670,7 +670,7 @@ div:last-child{
 
 export const NavListWrapper=styled.div`
 position:absolute;
-top:17vh;
+top:14vh;
 width:100%;  
 color:${({ dark }) => dark ? 'black' : 'white'};
 padding:0 2rem;

@@ -236,7 +236,7 @@ animation: dissappear 7s ease forwards 3s;
 
 const App=()=>{
   useEffect(() => {
-    console.log("vayy")
+
        document.getElementsByTagName("body")[0].style.overflowY="hidden";
        document.getElementsByClassName("hideTMS")[0].style.visibility="hidden"
      setTimeout(()=>{
@@ -265,11 +265,7 @@ else{
 
   return(
     < >
-    <Seo
-    
-    />
-      <GlobalStyle open={open} dark={dark}/>  
-      <div className="loadTMS" >
+       <div className="loadTMS" >
 
 <div className="svg-part">
 <div className="part2">
@@ -303,6 +299,11 @@ else{
 
 </div>
 </div>
+    <Seo
+    
+    />
+      <GlobalStyle open={open} dark={dark}/>  
+   
       <div className="hideTMS">
 <Header open={open} setOpen={setOpen} dark={dark} setDark={setDark}/>
 <ModelContainer  dark={dark}>

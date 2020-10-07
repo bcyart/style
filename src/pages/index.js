@@ -241,8 +241,11 @@ let comp;
 useEffect(() => {
   console.log("vayy")
      document.getElementsByTagName("body")[0].style.overflowY="hidden";
+     document.getElementsByClassName("hideTMS")[0].style.visibility="hidden"
    setTimeout(()=>{
+    document.getElementsByClassName("hideTMS")[0].style.visibility="visible"
     document.getElementsByTagName("body")[0].style.overflowY="auto";
+
    },5000)
     },[])
 const accordionHandler =(id,nd)=>{

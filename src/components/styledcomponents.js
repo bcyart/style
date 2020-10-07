@@ -592,7 +592,7 @@ a:hover{
 export const NavFooterWrapper=styled.div`
 
 position:relative;
-top:60vh;
+top:70vh;
 margin-left:0;
     padding: 0 2rem;
     color:${({ dark }) => dark ? 'black' : 'white'};

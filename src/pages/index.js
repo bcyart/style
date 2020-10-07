@@ -51,6 +51,7 @@ body::-webkit-scrollbar-thumb {
 const App=()=>{
   const [open, setOpen] = useState(false);
 const[dark,setDark]=useState(true);
+let comp;
 const accordionHandler =(id,nd)=>{
 
 if(document.getElementById(id).classList.length>2){
@@ -335,13 +336,13 @@ export const Vimeo = () => (
   </svg>
 )
 
-const NavigationContainer=({open,setOpen,dark})=>(
+const NavigationContainer=({open,setOpen,dark,comp})=>(
 <>
 
 <NavWrapper dark={dark} >
 
   < Navigation open={open} setOpen={setOpen}>
-  <NavList dark={dark} />
+  <NavList comp={comp} dark={dark} />
   <div  className="burger-item"> <HamburgerButtonElementClosed dark={dark} open={open} setOpen={setOpen}/>
   <h2 >Projeler</h2>
   </div>
@@ -359,7 +360,7 @@ const NavigationContainer=({open,setOpen,dark})=>(
 
 )
 
-const NavList =({dark})=>(
+const NavList =({dark,comp})=>(
 <NavListWrapper dark={dark}>
 <ul >
   <li ><Link state={{ comp: "videoContentList" , dark:{dark}}}  to="/projects">

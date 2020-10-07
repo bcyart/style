@@ -242,7 +242,7 @@ useEffect(() => {
      document.getElementsByTagName("body")[0].style.overflowY="hidden";
    setTimeout(()=>{
     document.getElementsByTagName("body")[0].style.overflowY="auto";
-   },7000)
+   },5000)
     },[])
 const accordionHandler =(id,nd)=>{
 

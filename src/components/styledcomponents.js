@@ -104,13 +104,9 @@ background-color: red;
 `
 
 export const Navigation=styled.div`
-
 margin-top:-2rem;
-
-    @media only screen and (min-width: 600px) {
-      margin-top:0;
-      position: fixed;
-        top: 0;
+position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -121,7 +117,7 @@ margin-top:-2rem;
     transform: ${({ open }) => open ? 'translateX(0)' : ' translateX(-100%) '};
     will-change: transform;
     z-index: 20;
-  }
+
 
 `
 
@@ -524,7 +520,7 @@ div{
 
 export const NavWrapper=styled.div`
  width:100vw;
-
+ overflow:hidden;
 
 .burger-item{
   display:flex;
@@ -596,7 +592,7 @@ a:hover{
 export const NavFooterWrapper=styled.div`
 
 position:relative;
-top:60vh;
+top:75vh;
 margin-left:0;
     padding: 0 2rem;
     color:${({ dark }) => dark ? 'black' : 'white'};

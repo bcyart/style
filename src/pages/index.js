@@ -393,7 +393,7 @@ const MainLogo = () => (
 const ShowReel =()=>(
   <ShowReelWrapper>
      <video
- 
+ loading="lazy"
  muted
      loop
      autoPlay

@@ -9,10 +9,8 @@ import {ProjectsArrow,ProjectsHeader,ProjectsContainer,ProjectItemHeader} from '
 function Projects({location}) {
 let pagetitle;
 let keys="default";
-let myComp=location.state.comp;
-
     let projectitems;
-    switch(myComp) {
+    switch(location.state.comp) {
         case "bannerList":
             projectitems=bannerList;
             pagetitle="Banner";
@@ -75,7 +73,7 @@ let myComp=location.state.comp;
 
  {
 video?
-<iframe className="responsive-iframe" src={video}  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe className="responsive-iframe" src={video}  frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
 :
 
   <div className="ifpic"><img src={image} /> </div> 

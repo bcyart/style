@@ -235,19 +235,20 @@ animation: dissappear 7s ease forwards 3s;
 
 
 const App=()=>{
+  seEffect(() => {
+    console.log("vayy")
+       document.getElementsByTagName("body")[0].style.overflowY="hidden";
+       document.getElementsByClassName("hideTMS")[0].style.visibility="hidden"
+     setTimeout(()=>{
+      document.getElementsByClassName("hideTMS")[0].style.visibility="visible"
+      document.getElementsByTagName("body")[0].style.overflowY="auto";
+  
+     },5000)
+      },[])
   const [open, setOpen] = useState(false);
 const[dark,setDark]=useState(true);
 let comp;
-useEffect(() => {
-  console.log("vayy")
-     document.getElementsByTagName("body")[0].style.overflowY="hidden";
-     document.getElementsByClassName("hideTMS")[0].style.visibility="hidden"
-   setTimeout(()=>{
-    document.getElementsByClassName("hideTMS")[0].style.visibility="visible"
-    document.getElementsByTagName("body")[0].style.overflowY="auto";
-
-   },5000)
-    },[])
+u
 const accordionHandler =(id,nd)=>{
 
 if(document.getElementById(id).classList.length>2){

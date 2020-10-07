@@ -78,19 +78,19 @@ else{
 <ModelContainer  dark={dark}>
 <DDDModel/>
 </ModelContainer>
- <BannerText dark={dark}>
+ <BannerText loading="lazy" dark={dark}>
  BCY ART’ a hoş geldiniz. Burası isteklerin 
  ve fikirlerin sanatla harmanlanıp, filme 
  dönüştüğü yer. Kısaca burası sinematik
   çalışmaların doğduğu topraklar.
  </BannerText>
- <ShowReel />
-<AllProjects  dark={dark} open={open} setOpen={setOpen} />
-<Services dark={dark} accordionHandler={accordionHandler} />
-<MainFooterWrapper dark={dark} >
-<MyFooter dark={dark} />
-</MainFooterWrapper>
-< NavigationContainer dark={dark} comp={comp}   open={open} setOpen={setOpen}/>
+ <ShowReel loading="lazy" />
+<AllProjects loading="lazy"  dark={dark} open={open} setOpen={setOpen} />
+<Services loading="lazy" dark={dark} accordionHandler={accordionHandler} />
+<MainFooterWrapper loading="lazy" dark={dark} >
+<MyFooter loading="lazy" dark={dark} />
+</MainFooterWrapper >
+< NavigationContainer loading="lazy" dark={dark} comp={comp}   open={open} setOpen={setOpen}/>
     </>
   )
 }

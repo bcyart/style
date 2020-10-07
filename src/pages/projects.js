@@ -10,7 +10,9 @@ function Projects({location}) {
 let pagetitle;
 let keys="default";
     let projectitems;
-    switch(location.state.comp) {
+    let mycomp=location.state ? location.state.comp : bannerList ;
+    let mydark=location.state ? location.state.dark.dark : true;
+    switch(mycomp) {
         case "bannerList":
             projectitems=bannerList;
             pagetitle="Banner";
@@ -56,7 +58,7 @@ let keys="default";
               </svg>
 
             </ProjectsArrow> 
-          <GlobalStyle dark={location.state.dark.dark}/>
+          <GlobalStyle dark={mydark}/>
             <Seo
         title={`${pagetitle} | BCY ART`}
         keywords={keys}

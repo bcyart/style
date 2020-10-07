@@ -235,7 +235,7 @@ animation: dissappear 7s ease forwards 3s;
 
 
 const App=()=>{
-  seEffect(() => {
+  useEffect(() => {
     console.log("vayy")
        document.getElementsByTagName("body")[0].style.overflowY="hidden";
        document.getElementsByClassName("hideTMS")[0].style.visibility="hidden"
@@ -248,7 +248,7 @@ const App=()=>{
   const [open, setOpen] = useState(false);
 const[dark,setDark]=useState(true);
 let comp;
-u
+
 const accordionHandler =(id,nd)=>{
 
 if(document.getElementById(id).classList.length>2){

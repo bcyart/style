@@ -104,7 +104,7 @@ background-color: red;
 `
 
 export const Navigation=styled.div`
-
+margin-top:-2rem;
 position: fixed;
     top: 0;
     left: 0;

@@ -56,7 +56,7 @@ body::-webkit-scrollbar-thumb {
  left: 0;
  z-index: 100;
 
- animation: kill 6s ease forwards 3s; 
+ animation: kill 8s ease forwards 3s; 
 }
 .svg-part{
  top: 0;
@@ -75,12 +75,12 @@ background: black;
 display: flex;
 align-items: center;
 justify-content: center;
-animation: shot 6s ease forwards 3s;
+animation: shot 7s ease forwards 3s;
 }
 
 #logo {
 transform:matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 45, 0, 1);
-animation: fill 6s ease forwards 3s;
+animation: fill 7s ease forwards 3s;
 transform: scale(0.9);
 }
 
@@ -222,7 +222,7 @@ to{
 
 @media screen and (min-width: 992px) {
 .svg-part{
-animation: dissappear 6s ease forwards 3s; 
+animation: dissappear 7s ease forwards 3s; 
 }
 
 
@@ -242,7 +242,7 @@ useEffect(() => {
      document.getElementsByTagName("body")[0].style.overflowY="hidden";
    setTimeout(()=>{
     document.getElementsByTagName("body")[0].style.overflowY="auto";
-   },4000)
+   },7000)
     },[])
 const accordionHandler =(id,nd)=>{
 
@@ -303,19 +303,19 @@ else{
 <ModelContainer  dark={dark}>
 <DDDModel/>
 </ModelContainer>
- <BannerText loading="lazy" dark={dark}>
+ <BannerText dark={dark}>
  BCY ART’ a hoş geldiniz. Burası isteklerin 
  ve fikirlerin sanatla harmanlanıp, filme 
  dönüştüğü yer. Kısaca burası sinematik
   çalışmaların doğduğu topraklar.
  </BannerText>
- <ShowReel loading="lazy" />
-<AllProjects loading="lazy"  dark={dark} open={open} setOpen={setOpen} />
-<Services loading="lazy" dark={dark} accordionHandler={accordionHandler} />
-<MainFooterWrapper loading="lazy" dark={dark} >
-<MyFooter loading="lazy" dark={dark} />
+ <ShowReel />
+<AllProjects  dark={dark} open={open} setOpen={setOpen} />
+<Services dark={dark} accordionHandler={accordionHandler} />
+<MainFooterWrapper dark={dark} >
+<MyFooter dark={dark} />
 </MainFooterWrapper >
-< NavigationContainer loading="lazy" dark={dark} comp={comp}   open={open} setOpen={setOpen}/>
+< NavigationContainer dark={dark} comp={comp}   open={open} setOpen={setOpen}/>
 
 </div>
     </>

@@ -225,14 +225,14 @@ const App=()=>{
     setTimeout(()=>{
       document.getElementsByClassName("hideTMS")[0].style.visibility="visible"
    
-      document.getElementsByClassName("loadTMS")[0].style.display="none";
-     },4000);
+  
+     },4700);
 
      setTimeout(()=>{
-    
+      document.getElementsByClassName("loadTMS")[0].style.display="none";
       document.getElementsByTagName("body")[0].style.overflowY="auto";
   
-     },4100);
+     },5000);
       },[])
 
   const [open, setOpen] = useState(false);

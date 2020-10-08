@@ -43,6 +43,8 @@ body::-webkit-scrollbar-thumb {
   background: red;
 }
 
+
+
 .part2{
  
  width: 100%;
@@ -50,13 +52,11 @@ body::-webkit-scrollbar-thumb {
  margin: 0;
  border: 0;
  outline: 0;
-
  position: absolute;
  top: 0px;
  right: 0;
  left: 0;
  z-index: 100;
-
  animation: kill 7s ease forwards 3s; 
 }
 .svg-part{
@@ -66,11 +66,8 @@ body::-webkit-scrollbar-thumb {
  height: 100vh;
  width:100vw;
  overflow: hidden;
-
-
 }
 .eyo{
-
 height: 100vh;
 background: black;
 display: flex;
@@ -78,13 +75,11 @@ align-items: center;
 justify-content: center;
 animation: shot 7s ease forwards 3s;
 }
-
 #logo {
 transform:matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 45, 0, 1);
 animation: fill 7s ease forwards 3s;
 transform: scale(0.9);
 }
-
 #logo path:nth-child(1){
  stroke-dasharray: 123px; 
  stroke-dashoffset: 123px;
@@ -186,21 +181,16 @@ stroke-dasharray: 5px;
 stroke-dashoffset: 5px;
 animation: line-anim 2s ease forwards 1.0s; 
 }
-
-
 @keyframes line-anim {
 to{
  stroke-dashoffset: 0;
 }
 }
 @keyframes kill{
-
 100%{
 position: static;
 overflow: auto; 
 }
-
-
 }
 @keyframes shot{
 to{
@@ -209,24 +199,16 @@ opacity: 0%;
  height: 0px;
  display:none;
 }
-
 }
-
 @keyframes dissappear{
 to{
   height: 0px;
-
 }
-
 }
-
-
 @media screen and (min-width: 992px) {
 .svg-part{
 animation: dissappear 7s ease forwards 3s; 
 }
-
-
 }
 
 
@@ -244,14 +226,15 @@ const App=()=>{
       document.getElementsByClassName("hideTMS")[0].style.visibility="visible"
    
       document.getElementsByClassName("loadTMS")[0].style.display="none";
-     },5000);
+     },4000);
 
      setTimeout(()=>{
     
       document.getElementsByTagName("body")[0].style.overflowY="auto";
   
-     },4700);
+     },4100);
       },[])
+
   const [open, setOpen] = useState(false);
 const[dark,setDark]=useState(true);
 let comp;
@@ -306,6 +289,7 @@ else{
 
 </div>
 </div>
+
     <Seo
     
     />

@@ -161,7 +161,7 @@ margin-top:27px;
 text-align:center;
 margin-left:auto;
   margin-right:auto;
-overflow:auto;
+
 
  @media only screen and (min-width: 600px) {
 width:75%;

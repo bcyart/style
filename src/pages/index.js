@@ -243,14 +243,14 @@ const App=()=>{
     setTimeout(()=>{
       document.getElementsByClassName("hideTMS")[0].style.visibility="visible"
    
-  
-     },4000);
+      document.getElementsByClassName("loadTMS")[0].style.display="none";
+     },5000);
 
      setTimeout(()=>{
-
+    
       document.getElementsByTagName("body")[0].style.overflowY="auto";
   
-     },5000);
+     },4700);
       },[])
   const [open, setOpen] = useState(false);
 const[dark,setDark]=useState(true);

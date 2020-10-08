@@ -236,14 +236,21 @@ animation: dissappear 7s ease forwards 3s;
 
 const App=()=>{
   useEffect(() => {
-
-       document.getElementsByTagName("body")[0].style.overflowY="hidden";
-       document.getElementsByClassName("hideTMS")[0].style.visibility="hidden"
-     setTimeout(()=>{
+    
+    document.getElementsByTagName("body")[0].style.overflowY="hidden";
+    document.getElementsByClassName("hideTMS")[0].style.visibility="hidden"
+    
+    setTimeout(()=>{
       document.getElementsByClassName("hideTMS")[0].style.visibility="visible"
+   
+  
+     },4000);
+
+     setTimeout(()=>{
+
       document.getElementsByTagName("body")[0].style.overflowY="auto";
   
-     },5000)
+     },5000);
       },[])
   const [open, setOpen] = useState(false);
 const[dark,setDark]=useState(true);

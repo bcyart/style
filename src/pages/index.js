@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb {
  left: 0;
  z-index: 100;
 
- animation: kill 8s ease forwards 3s; 
+ animation: kill 7s ease forwards 3s; 
 }
 .svg-part{
  top: 0;
@@ -238,10 +238,10 @@ const App=()=>{
   useEffect(() => {
 
        document.getElementsByTagName("body")[0].style.overflowY="hidden";
-       document.getElementsByClassName("hideTMS")[0].style.visibility="hidden"
+      
      setTimeout(()=>{
       document.getElementsByClassName("hideTMS")[0].style.visibility="visible"
-      document.getElementsByTagName("body")[0].style.overflowY="auto";
+      
   
      },5000)
       },[])

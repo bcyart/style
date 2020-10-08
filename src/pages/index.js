@@ -14,13 +14,13 @@ export const GlobalStyle = createGlobalStyle`
 margin:0px;
 padding:0px;
 box-sizing:border-box;
-
-  overflow:${({ open }) => open ? 'hidden' : ' auto'};
+overflow-y:${({ open }) => open ? 'hidden' : ' auto'};
 }
 body{
   background:${({ dark }) => dark ? 'white' : 'black'};
   color:${({ dark }) => dark ? 'black' : 'white'};
   position: relative;
+  overflow-x:hidden;
 
   font-size:16px;
   font-family:"Montserrat",-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

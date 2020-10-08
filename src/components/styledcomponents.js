@@ -109,7 +109,7 @@ position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: block;
     background: #ea281e;
     overflow: hidden;
@@ -118,7 +118,9 @@ position: fixed;
     will-change: transform;
     z-index: 20;
 
-
+    @media only screen and (min-width: 600px) {
+      margin-top:0;
+  }
 `
 
 

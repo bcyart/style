@@ -529,8 +529,8 @@ export const Services=({dark,accordionHandler})=>(
  const MyFooter=()=>(
   <Footer>
 <div>
-<a href="tel:0543-593-68-94">0543 593 68 94</a>
-<a href="mailto:bcyart@studio.com">bcyart@studio.com</a>  
+<a href="tel:0545-450-85-78">0545 450 85 78</a>
+<a href="mailto:info@bcyart.net">info@bcyart.net</a>  
 </div>
 
 <div>

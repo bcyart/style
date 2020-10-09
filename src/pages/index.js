@@ -226,7 +226,7 @@ const App=()=>{
       document.getElementsByClassName("hideTMS")[0].style.visibility="visible"
    
   
-     },3700);
+     },4900);
 
      setTimeout(()=>{
       document.getElementsByClassName("loadTMS")[0].style.display="none";

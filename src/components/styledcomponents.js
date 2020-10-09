@@ -98,9 +98,7 @@ background-color: red;
   box-shadow: inset 16px 0px ${({ dark }) => dark ? 'black' : 'white'}, inset 16px 0px 1px 1px red;
   -moz-box-shadow: inset 0px 16px #999, inset 0px 16px 1px 1px #999;
   cursor:pointer;
-  @media only screen and (min-width: 1400px) {
-  
-  }
+
 `
 
 export const Navigation=styled.div`

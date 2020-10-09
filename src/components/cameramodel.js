@@ -48,7 +48,7 @@ const DDDModel= ({dark}) => {
 const loader=false;
 const [model, setModel] = useState();
 useEffect(() => {
-if(model){
+if(model&& document){
   document.getElementsByClassName("waitmodel")[0].style.visibility ="visible"
   document.getElementsByClassName("waitinghere")[0].style.visibility ="hidden"
 }

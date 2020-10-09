@@ -24,8 +24,8 @@ justify-content:space-between;
 align-items:center;
 
 @media only screen and (min-width: 600px) {
-
-  width:50vw;
+padding: 0 4rem;
+  width:100vw;
 }
 
 `
@@ -99,7 +99,7 @@ background-color: red;
   -moz-box-shadow: inset 0px 16px #999, inset 0px 16px 1px 1px #999;
   cursor:pointer;
   @media only screen and (min-width: 1400px) {
-    margin-left:-13rem;
+  
   }
 `
 
@@ -125,7 +125,7 @@ position: fixed;
 
 
 export const ModelWrapper=styled.div`
-margin-top:3.88rem;
+margin-top:-5rem;
 
 div{
  
@@ -134,6 +134,7 @@ canvas{
 height:40vh;
 
 }
+
 }
 
 
@@ -146,17 +147,18 @@ div{
 height:70vh;
 
 }
+
 }
 
 }
 
 `
 export const ModelContainer=styled.div`
-  background: url("/banner-back.png") no-repeat fixed center;
-background: url("https://www.incos.com.tr/wp-content/uploads/revslider/slider-dot-img-2-red.png") no-repeat fixed center   ;
+  /* background: url("/banner-back.png") no-repeat fixed center;
+background: url("https://www.incos.com.tr/wp-content/uploads/revslider/slider-dot-img-2-red.png") no-repeat fixed center   ; */
   height: 50vh;
   width: 90%;
-  border: 3px solid ${({ dark }) => dark ? 'white' : 'black'};
+
 margin-top:27px;
 text-align:center;
 margin-left:auto;
@@ -171,13 +173,54 @@ height: 70vh;
 
 `
 
+export const BackGWrapper=styled.div`
+ top: 150px;
+svg{
+width:80vw;
+}
+path{
+    fill:${({ dark }) => dark ? 'black' : ''};
+   }
+
+  @media only screen and (min-width: 600px) {
+  
+    position: absolute;
+  top: 160px;
+  left: 50%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 800;
+  font-size: 25em;
+  transform: translate3d(-50%, 0, 0);
+  margin: 0;
+  color:${({ dark }) => dark ? 'black' : 'white'};
+  fill:${({ dark }) => dark ? 'black' : 'white'};
+  line-height: 0.8em;
+  letter-spacing: -15px;
+  text-align: center;
+  svg{
+    transform: scale(1.7 );
+    fill:${({ dark }) => dark ? 'black' : 'white'};
+    g{
+      fill:${({ dark }) => dark ? 'black' : 'white'};
+   path{
+    fill:${({ dark }) => dark ? 'black' : ''};
+   }
+    }
+
+  }
+  }
+
+  
+
+`
+
 
 export const BannerText=styled.h2`
 color:${({ dark }) => dark ? 'black' : 'white'};
 margin-top:10px;
 width: 100%;
 padding:0.5rem;
-  font-size:min(2.23em,4vh);
+  font-size:min(2.3rem,5vh);
   font-weight: 400;
   margin-bottom:200px;
 
@@ -699,6 +742,7 @@ li:hover{
 
   transform: translateX(2%) translateZ(0);
   text-shadow:1px 1px 1px ${({ dark }) => dark ? 'white' : 'black'};
+  color:black;
 }
 }
 
@@ -834,6 +878,7 @@ svg{
     top: 16px;
     left: -48px;
     width: 108px;
+    cursor:pointer;
 path{
   fill:red;
 }
@@ -912,7 +957,7 @@ flex-direction:column;
   div{
     text-align:start;
     padding-top: 0;
-  
+    
     display: flex;
 
     .ifpic{
@@ -935,7 +980,7 @@ flex-direction:column;
     justify-content: center;
     align-items: center;
     padding:0;
-    margin-bottom:1rem;
+    margin-bottom:2.3rem;
 }
 
 }
@@ -1013,7 +1058,7 @@ padding-top:1.5rem;
  font-size:1.5rem;
 
 @media only screen and (min-width: 600px) {
-
+  font-size:2rem;
   text-align:inherit;
 padding-top:0 !important;
 position: absolute;

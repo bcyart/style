@@ -17,10 +17,10 @@ box-sizing:border-box;
 
 }
 body{
-  background:${({ dark }) => dark ? 'white' : 'black'};
+  background:${({ dark }) => dark ? '#F9F9F3' : 'radial-gradient(at 50% 35%, #873740 0%, #272730 40%, #171720 80%, #070710 100%)'};
   color:${({ dark }) => dark ? 'black' : 'white'};
   position: relative;
-  overflow-x:hidden;
+    overflow-x:hidden;
 
   font-size:16px;
   font-family:"Montserrat",-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -236,7 +236,7 @@ const App=()=>{
       },[])
 
   const [open, setOpen] = useState(false);
-const[dark,setDark]=useState(true);
+const[dark,setDark]=useState(false);
 let comp;
 
 const accordionHandler =(id,nd)=>{
@@ -298,7 +298,7 @@ else{
       <div className="hideTMS">
 <Header open={open} setOpen={setOpen} dark={dark} setDark={setDark}/>
 <ModelContainer  dark={dark}>
-<DDDModel/>
+<DDDModel dark={dark}/>
 </ModelContainer>
  <BannerText dark={dark}>
 <MyBannerText/>
@@ -337,7 +337,7 @@ const Header=({open,setOpen,setDark,dark})=>(
 
 
 <LogoContainer dark={dark} >
-<MainLogo/>
+
 </LogoContainer>
 
 

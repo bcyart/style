@@ -235,7 +235,7 @@ padding:0.5rem;
 
 export const ShowReelWrapper=styled.div`
 width:100%;
-margin-bottom:13%;
+margin-bottom:200px;
 padding-top:0;
 
 video{

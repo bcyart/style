@@ -9,8 +9,8 @@ import {ModelWrapper,BackGWrapper} from './styledcomponents';
 
 extend({ OrbitControls })
 
-const SpaceShip = () => {
-  const [model, setModel] = useState()
+const SpaceShip = ({model,setModel}) => {
+  
 
   useEffect(() => {
     new GLTFLoader().load("/scene.gltf", setModel)
@@ -45,6 +45,21 @@ const Controls = () => {
 
 const DDDModel= ({dark}) => {
   const isBrowser = typeof window !== "undefined"
+const loader=false;
+const [model, setModel] = useState();
+useEffect(() => {
+if(model){
+  document.getElementsByClassName("waitmodel")[0].style.visibility ="visible"
+  document.getElementsByClassName("waitinghere")[0].style.visibility ="hidden"
+}
+else{
+  document.getElementsByClassName("waitmodel")[0].style.visibility ="hidden"
+  document.getElementsByClassName("waitinghere")[0].style.visibility ="visible"
+}
+
+
+});
+
 
   return (
     <div>
@@ -74,37 +89,39 @@ const DDDModel= ({dark}) => {
     </g>
   </svg>
  </BackGWrapper>
-      <ModelWrapper>
-
-{isBrowser && (
-        <Canvas
-          camera={{ position: [0, 0, 160] }}
-          onCreated={({ gl }) => {
-            gl.shadowMap.enabled = true
-            gl.shadowMap.type = THREE.PCFSoftShadowMap
-          }}    
-        >
-   
-             <ambientLight intensity={0.75} />
-        <pointLight intensity={4} position={[-10, -25, -10]} />
-        <spotLight
-          castShadow
-          intensity={9.25}  
-          angle={3.2}
-          penumbra={2}
-          position={[25, 25, 25]}
-          shadow-mapSize-width={1024}
-          shadow-mapSize-height={1024}
-          shadow-bias={-0.0001}
-        />
-          <Controls />
-    
-          <SpaceShip />
-        </Canvas>
-      )}
+<div className="waitmodel">
+<ModelWrapper>
 
 
-      </ModelWrapper>
+<Canvas
+  camera={{ position: [0, 0, 160] }}
+  onCreated={({ gl }) => {
+    gl.shadowMap.enabled = true
+    gl.shadowMap.type = THREE.PCFSoftShadowMap
+  }}    
+>
+
+     <ambientLight intensity={0.75} />
+<pointLight intensity={4} position={[-10, -25, -10]} />
+<spotLight
+  castShadow
+  intensity={9.25}  
+  angle={3.2}
+  penumbra={2}
+  position={[25, 25, 25]}
+  shadow-mapSize-width={1024}
+  shadow-mapSize-height={1024}
+  shadow-bias={-0.0001}
+/>
+  <Controls />
+
+<SpaceShip model={model} setModel={setModel} />
+
+</Canvas>
+</ModelWrapper>
+
+</div>
+      <div className="waitinghere">model yükleniyor ... </div>
     </div>
   )
 }

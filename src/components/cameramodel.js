@@ -48,14 +48,16 @@ const DDDModel= ({dark}) => {
 const loader=false;
 const [model, setModel] = useState();
 useEffect(() => {
-if(model&& document){
-  document.getElementsByClassName("waitmodel")[0].style.visibility ="visible"
-  document.getElementsByClassName("waitinghere")[0].style.visibility ="hidden"
-}
-else{
-  document.getElementsByClassName("waitmodel")[0].style.visibility ="hidden"
-  document.getElementsByClassName("waitinghere")[0].style.visibility ="visible"
-}
+
+  if(model){
+    document.getElementsByClassName("waitmodel")[0].style.visibility ="visible"
+    document.getElementsByClassName("waitinghere")[0].style.visibility ="hidden"
+  }
+  else{
+    document.getElementsByClassName("waitmodel")[0].style.visibility ="hidden"
+    document.getElementsByClassName("waitinghere")[0].style.visibility ="visible"
+  }
+  
 
 
 });
@@ -89,6 +91,12 @@ else{
     </g>
   </svg>
  </BackGWrapper>
+ {
+   isBrowser && (
+
+   <div>
+
+ 
 <div className="waitmodel">
 <ModelWrapper>
 
@@ -122,6 +130,13 @@ else{
 
 </div>
       <div className="waitinghere">model yükleniyor ... </div>
+
+
+
+     </div>
+      
+   )
+ }
     </div>
   )
 }

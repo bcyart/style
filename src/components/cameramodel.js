@@ -52,9 +52,11 @@ useEffect(() => {
   if(model){
     document.getElementsByClassName("waitmodel")[0].style.visibility ="visible"
     document.getElementsByClassName("waitinghere")[0].style.visibility ="hidden"
+    
   }
   else{
     document.getElementsByClassName("waitmodel")[0].style.visibility ="hidden"
+    document.getElementsByClassName("waitinghere")[0].style.marginTop = "-10rem"
     document.getElementsByClassName("waitinghere")[0].style.visibility ="visible"
   }
   

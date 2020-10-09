@@ -58,10 +58,19 @@ const DDDModel= () => {
             gl.shadowMap.type = THREE.PCFSoftShadowMap
           }}    
         >
-             <fog attach="fog" args={["white", 40, 650]} />
-          <ambientLight intensity={2} />
-          <spotLight position={[-100, 60, 180]} penumbra={0.5} castShadow />
-        
+   
+             <ambientLight intensity={0.75} />
+        <pointLight intensity={4} position={[-10, -25, -10]} />
+        <spotLight
+          castShadow
+          intensity={9.25}  
+          angle={3.2}
+          penumbra={2}
+          position={[25, 25, 25]}
+          shadow-mapSize-width={1024}
+          shadow-mapSize-height={1024}
+          shadow-bias={-0.0001}
+        />
           <Controls />
     
           <SpaceShip />

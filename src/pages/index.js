@@ -139,7 +139,7 @@ const Header=({open,setOpen,setDark,dark})=>(
 );
 
 const MyBannerText = ()=>(
-  <div loading="lazy" >
+  <div  >
      BCY ART’ a hoş geldiniz. Burası isteklerin 
  ve fikirlerin sanatla harmanlanıp, filme 
  dönüştüğü yer. Kısaca burası sinematik

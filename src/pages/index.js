@@ -339,7 +339,7 @@ const MainLogo = () => (
   <div class="svg-part">
 <div class="part2">
   <div class="eyo">
-  <p>mode yükleniyor...<br/>lütfen bekleyin</p>
+  <p>model yükleniyor...<br/>lütfen bekleyin</p>
     <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="824.166" height="187.125" viewBox="0 0 824.166 187.125">
 
       <g id="svgbcy" transform="translate(-45 519.039)">

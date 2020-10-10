@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
 margin:0px;
 padding:0px;
 box-sizing:border-box;
-
+overflow:${({ roll }) => roll ? 'hidden' : ' scrollable'};
 }
 body{
   background:${({ dark }) => dark ? '#F9F9F3' : 'radial-gradient(at 50% 35%, #873740 0%, #272730 40%, #171720 80%, #070710 100%)'};
@@ -43,7 +43,9 @@ body::-webkit-scrollbar-thumb {
   background: red;
 }
 
-
+.hideTMS{
+  visibility:${({ roll }) => roll ? 'hidden' : ' visible'};
+}
 .showTMS{
   width:100vw;
 color:white;
@@ -76,13 +78,13 @@ useEffect(() => {
   
 if(roll){
   document.getElementsByClassName("showTMS")[0].style.visibility ="visible"
-  document.getElementsByClassName("hideTMS")[0].style.visibility ="hidden"
-  document.getElementsByTagName("body")[0].style.overflowY ="hidden"
+
+
 }
 else{
   document.getElementsByClassName("showTMS")[0].style.visibility ="hidden"
-  document.getElementsByClassName("hideTMS")[0].style.visibility ="visible"
-  document.getElementsByTagName("body")[0].style.overflowY ="auto"
+
+
 }
 
 });
@@ -107,7 +109,7 @@ else{
     <Seo
     
     />
-      <GlobalStyle open={open} dark={dark}/>  
+      <GlobalStyle roll={roll} open={open} dark={dark}/>  
    
       <div className="hideTMS">
 <Header open={open} setOpen={setOpen} dark={dark} setDark={setDark}/>

@@ -55,7 +55,7 @@ position:absolute;
 top:15rem;
 left:0;
 text-align:center;
-h3{
+p{
   margin-left:auto;
 margin-right:auto;
 width:60%;
@@ -129,7 +129,8 @@ else{
 
 </div>
 <div className="showTMS" >
-<h3>kaynaklar yükleniyor</h3>
+<MainLogo/>
+<p>kaynaklar yükleniyor <br/>lütfen bekleyin</p>
 </div>
     </>
   )

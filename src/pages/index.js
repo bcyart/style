@@ -44,8 +44,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.showTMS{color:red;
-font-size:22rem;
+.showTMS{
+  width:100vw;
+color:white;
+font-weight:300;
+font-size:1rem;
+position:absolute;
+top:15rem;
+left:0;
+text-align:center;
+h3{
+  margin-left:auto;
+margin-right:auto;
+width:60%;
+}
+
+
 }
 
 
@@ -63,10 +77,12 @@ useEffect(() => {
 if(roll){
   document.getElementsByClassName("showTMS")[0].style.visibility ="visible"
   document.getElementsByClassName("hideTMS")[0].style.visibility ="hidden"
+  document.getElementsByTagName("body")[0].style.overflowY ="hidden"
 }
 else{
   document.getElementsByClassName("showTMS")[0].style.visibility ="hidden"
   document.getElementsByClassName("hideTMS")[0].style.visibility ="visible"
+  document.getElementsByTagName("body")[0].style.overflowY ="auto"
 }
 
 });
@@ -111,7 +127,7 @@ else{
 
 </div>
 <div className="showTMS" >
-kaynaklar yükleniyor ...
+<h3>kaynaklar yükleniyor</h3>
 </div>
     </>
   )

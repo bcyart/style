@@ -107,7 +107,7 @@ position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 120%;
     display: block;
     background: #ea281e;
     overflow: hidden;
@@ -118,6 +118,7 @@ position: fixed;
 
     @media only screen and (min-width: 600px) {
       margin-top:0;
+      height: 100%;
   }
 `
 

@@ -52,7 +52,7 @@ useEffect(() => {
   if(model){
     document.getElementsByClassName("waitmodel")[0].style.visibility ="visible"
   
-    setRoll(false)
+    setRoll(true)
   }
   else{
     document.getElementsByClassName("waitmodel")[0].style.visibility ="hidden"

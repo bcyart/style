@@ -12,6 +12,7 @@ module.exports = {
     keywords: "gatsby, gatsbyjs project, video,kurgu,içerik,banner,renk,edit,drone,fotoğraf,studio,tasarımi,motion graphic,grafik,intro",
     image: `/static/image.png`,
     url: "bcyart.net",
+    siteUrl: `https://www.bcyart.net`,
     author:`berkay yüksel , burak can yüksel`,
     icon: `/static/favicon.ico`,
   },

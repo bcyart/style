@@ -44,7 +44,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-
+.showTMS{color:red;
+font-size:22rem;
+}
 
 
 `
@@ -52,10 +54,22 @@ body::-webkit-scrollbar-thumb {
 
 
 const App=()=>{
-
+const [roll,setRoll]=useState(true)
   const [open, setOpen] = useState(false);
 const[dark,setDark]=useState(false);
 let comp;
+useEffect(() => {
+  
+if(roll){
+  document.getElementsByClassName("showTMS")[0].style.visibility ="visible"
+  document.getElementsByClassName("hideTMS")[0].style.visibility ="hidden"
+}
+else{
+  document.getElementsByClassName("showTMS")[0].style.visibility ="hidden"
+  document.getElementsByClassName("hideTMS")[0].style.visibility ="visible"
+}
+
+});
 
 const accordionHandler =(id,nd)=>{
 
@@ -82,7 +96,7 @@ else{
       <div className="hideTMS">
 <Header open={open} setOpen={setOpen} dark={dark} setDark={setDark}/>
 <ModelContainer  dark={dark}>
-<DDDModel dark={dark}/>
+<DDDModel dark={dark} setRoll={setRoll} />
 </ModelContainer>
  <BannerText dark={dark}>
 <MyBannerText/>
@@ -95,6 +109,9 @@ else{
 </MainFooterWrapper >
 < NavigationContainer dark={dark} comp={comp}   open={open} setOpen={setOpen}/>
 
+</div>
+<div className="showTMS" >
+kaynaklar yükleniyor ...
 </div>
     </>
   )

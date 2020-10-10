@@ -60,27 +60,22 @@ export const droneList = [
 
 
   export const picList = [
+  
     {
       id: 0,
-      title: "ürün çekimi",
-      path: "/ürün çekimi",
-      image:"//live.staticflickr.com/65535/50343196827_e4eff180d5_k.jpg"
-
-    },
-    {
-      id: 1,
       title: "düğün çekimi",
       path: "/düğün çekimi",
       image:"//live.staticflickr.com/65535/50343195882_44c8fea6fb_k.jpg"
      
     },
     {
-      id: 2,
+      id: 1,
       title: "konser-etkinlik",
       path: "/konser-etkinlik",
       image:"https://live.staticflickr.com/65535/50343195687_28185c5b8f_z.jpg"
    
     }
+    
  
   ];
 
@@ -204,17 +199,11 @@ export const droneList = [
       video:"https://player.vimeo.com/video/422947292?title=0&byline=0&portrait=0"
  
     },
+    
     {
       id: 7,
       title: "Enformasyonline.com Tanıtım",
       path: "/Enformasyonline.com Tanıtım",
-      video:"https://player.vimeo.com/video/422947292?title=0&byline=0&portrait=0"
- 
-    },
-    {
-      id: 8,
-      title: "Türkiye İş Kurumu Burada İş Var",
-      path: "/Türkiye İş Kurumu Burada İş Var",
       video:"https://player.vimeo.com/video/372719600?title=0&byline=0&portrait=0"
  
     }

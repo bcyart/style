@@ -43,7 +43,7 @@ const Controls = () => {
 
 
 
-const DDDModel= ({dark}) => {
+const DDDModel= ({dark,setRoll}) => {
   const isBrowser = typeof window !== "undefined"
 const loader=false;
 const [model, setModel] = useState();
@@ -52,12 +52,13 @@ useEffect(() => {
   if(model){
     document.getElementsByClassName("waitmodel")[0].style.visibility ="visible"
     document.getElementsByClassName("waitinghere")[0].style.visibility ="hidden"
-    
+    setRoll(false)
   }
   else{
     document.getElementsByClassName("waitmodel")[0].style.visibility ="hidden"
     document.getElementsByClassName("waitinghere")[0].style.marginTop = "-10rem"
     document.getElementsByClassName("waitinghere")[0].style.visibility ="visible"
+    setRoll(true)
   }
   
 

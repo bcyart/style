@@ -98,7 +98,7 @@ justify-content: center;
 
 #logo {
 transform:matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 45, 0, 1);
-animation: fill 6s ease forwards 3s;
+animation: fill 15s ease forwards 3s;
 transform: scale(0.9);
 }
 

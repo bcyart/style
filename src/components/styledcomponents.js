@@ -102,7 +102,7 @@ background-color: red;
 `
 
 export const Navigation=styled.div`
-
+margin-top:-2rem;
 position: fixed;
     top: 0;
     left: 0;
@@ -117,7 +117,7 @@ position: fixed;
     z-index: 20;
 
     @media only screen and (min-width: 600px) {
-     
+      margin-top:0;
       height: 100%;
   }
 `

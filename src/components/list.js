@@ -206,8 +206,8 @@ export const droneList = [
     },
     {
       id: 8,
-      title: "18 Mart Çanakkale Film"
-      path: "/18 Mart Çanakkale Film"
+      title: "18 Mart Çanakkale Film",
+      path: "/18 Mart Çanakkale Film",
       video:"https://player.vimeo.com/video/374993909?title=0&byline=0&portrait=0"
     },
  

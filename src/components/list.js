@@ -173,16 +173,16 @@ export const droneList = [
       id: 3,
       title: "Enformasyonline.com App Tanıtım",
       path: "/Enformasyonline.com App Tanıtım",
-      video: "https://player.vimeo.com/video/390574981?title=0&byline=0&portrait=0"
+      video:"https://player.vimeo.com/video/390574981?title=0&byline=0&portrait=0"
  
     },
 
     
     {
       id: 4,
-      title: "İŞKUR İş ve Meslek Danışmanlığı",
-      path: "/İŞKUR İş ve Meslek Danışmanlığı",
-      video:"https://player.vimeo.com/video/388952216?title=0&byline=0&portrait=0"
+      title: "Bu Ev Mobilya",
+      path: "/Bu Ev Mobilya",
+      video:"https://player.vimeo.com/video/368133973?title=0&byline=0&portrait=0"
  
     },
     {
@@ -206,5 +206,11 @@ export const droneList = [
       path: "/Enformasyonline.com Tanıtım",
       video:"https://player.vimeo.com/video/372719600?title=0&byline=0&portrait=0"
  
+    },
+    {
+      id: 8,
+      title: "18 Mart Çanakkale Film"
+      path: "/18 Mart Çanakkale Film"
+      video:"https://player.vimeo.com/video/374993909?title=0&byline=0&portrait=0"
     }
   ];

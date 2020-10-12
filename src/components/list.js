@@ -176,8 +176,6 @@ export const droneList = [
       video:"https://player.vimeo.com/video/390574981?title=0&byline=0&portrait=0"
  
     },
-
-    
     {
       id: 4,
       title: "Bu Ev Mobilya",
@@ -199,8 +197,7 @@ export const droneList = [
       video:"https://player.vimeo.com/video/422947292?title=0&byline=0&portrait=0"
  
     },
-    
-    {
+     {
       id: 7,
       title: "Enformasyonline.com Tanıtım",
       path: "/Enformasyonline.com Tanıtım",

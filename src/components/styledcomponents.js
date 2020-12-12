@@ -224,7 +224,7 @@ padding:0.5rem;
   margin-bottom:200px;
 
   @media only screen and (min-width: 600px) {
-    margin-top:150px;
+    margin-top:90px;
     margin-left: 16rem;
     width: 43%;
     margin-bottom:0;

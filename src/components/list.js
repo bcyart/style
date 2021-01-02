@@ -194,7 +194,7 @@ export const droneList = [
       id: 6,
       title: "Forev Yapı - Eyüp",
       path: "/Forev Yapı - Eyüp",
-      video:"https://player.vimeo.com/video/422947292?title=0&byline=0&portrait=0"
+      video:"https://player.vimeo.com/video/368119635?title=0&byline=0&portrait=0"
  
     },
      {

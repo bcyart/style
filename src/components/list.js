@@ -180,7 +180,7 @@ export const droneList = [
       id: 4,
       title: "Goldexco.in Video Reklam",
       path: "/Goldexco.in Video Reklam",
-      video:"https://player.vimeo.com/video/368133973?title=0&byline=0&portrait=0"
+      video:"https://player.vimeo.com/video/478547562?title=0&byline=0&portrait=0"
  
     },
     {
@@ -252,4 +252,28 @@ export const droneList = [
       path: "/Türkiye İş Kurumu - Meslek Danışmanlığı",
       video:"https://player.vimeo.com/video/422946249?title=0&byline=0&portrait=0"
     },
-   ];
+   {
+      id: 16,
+      title: "Reform Koltuk Video Reklam",
+      path: "/Reform Koltuk Video Reklam",
+      video:"https://player.vimeo.com/video/496450575?title=0&byline=0&portrait=0"
+    }, 
+   {
+      id: 17,
+      title: "Kocaeli Gazetesi Video Reklam",
+      path: "/Kocaeli Gazetesi Video Reklam",
+      video:"https://player.vimeo.com/video/496451543?title=0&byline=0&portrait=0"
+    }, 
+   {
+      id: 18,
+      title: "18 Mart Çanakkale",
+      path: "/18 Mart Çanakkale",
+      video:"https://player.vimeo.com/video/374993909?title=0&byline=0&portrait=0"
+    }, 
+   {
+      id: 19,
+      title: "Türkiye İş Kurumu - Meslek Eğitim Kursları",
+      path: "/Türkiye İş Kurumu - Meslek Eğitim Kursları",
+      video:"https://player.vimeo.com/video/422949193?title=0&byline=0&portrait=0"
+    }, 
+  ];

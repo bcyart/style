@@ -150,65 +150,106 @@ export const droneList = [
   const videoAdList = [
     {
       id: 0,
-      title: "Unicef Dünya Çocuk Günü",
-      path: "/Unicef Dünya Çocuk Günü",
-      video:"https://player.vimeo.com/video/374770649?title=0&byline=0&portrait=0"
+      title: "Unicef Eğitim Programı - Geri Dönüşüm",
+      path: "/Unicef Eğitim Programı - Geri Dönüşüm",
+      video:"https://player.vimeo.com/video/496421591?title=0&byline=0&portrait=0"
 
     },
     {
       id: 1,
-      title: "Türkiye İş Kurumu Açık İş İlanı",
-      path: "/Türkiye İş Kurumu Açık İş İlanı",
+      title: "Türkiye İş Kurumu - Açık İş İlanı",
+      path: "/Türkiye İş Kurumu - Açık İş İlanı",
       video: "https://player.vimeo.com/video/422947968?title=0&byline=0&portrait=0"
      
     },
     {
       id: 2,
-      title: "Veysel Tiryaki Seçim Kampanyası",
-      path: "/Veysel Tiryaki Seçim Kampanyası",
-      video:"https://player.vimeo.com/video/367871468?title=0&byline=0&portrait=0"
+      title: "Gotogemba Profesyonel İş ve Eğitim Platformu",
+      path: "/Gotogemba Profesyonel İş ve Eğitim Platformu",
+      video:"https://player.vimeo.com/video/496415998?title=0&byline=0&portrait=0"
    
     },
     {
       id: 3,
-      title: "Enformasyonline.com App Tanıtım",
-      path: "/Enformasyonline.com App Tanıtım",
+      title: "Enformasyonline.com - Uygulama Tanıtım",
+      path: "/Enformasyonline.com - Uygulama Tanıtım",
       video:"https://player.vimeo.com/video/390574981?title=0&byline=0&portrait=0"
  
     },
     {
       id: 4,
-      title: "Bu Ev Mobilya",
-      path: "/Bu Ev Mobilya",
+      title: "Goldexco.in Video Reklam",
+      path: "/Goldexco.in Video Reklam",
       video:"https://player.vimeo.com/video/368133973?title=0&byline=0&portrait=0"
  
     },
     {
       id: 5,
-      title: "Forev Yapı Eyüp",
-      path: "/Forev Yapı Eyüp",
-      video:"https://player.vimeo.com/video/368119635?title=0&byline=0&portrait=0"
+      title: "Tsunami Yayınları Video Reklam",
+      path: "/Tsunami Yayınları Video Reklam",
+      video:"https://player.vimeo.com/video/475494002?title=0&byline=0&portrait=0"
  
     },
     {
       id: 6,
-      title: "Türkiye İş Kurumu Burada İş Var",
-      path: "/Türkiye İş Kurumu Burada İş Var",
+      title: "Forev Yapı - Eyüp",
+      path: "/Forev Yapı - Eyüp",
       video:"https://player.vimeo.com/video/422947292?title=0&byline=0&portrait=0"
  
     },
      {
       id: 7,
-      title: "Enformasyonline.com Tanıtım",
-      path: "/Enformasyonline.com Tanıtım",
-      video:"https://player.vimeo.com/video/372719600?title=0&byline=0&portrait=0"
+      title: "Bu Ev Mobilya Video Reklam",
+      path: "/Bu Ev Mobilya Video Reklam",
+      video:"https://player.vimeo.com/video/368133973?title=0&byline=0&portrait=0"
  
+    },
+   {
+      id: 8,
+      title: "Veysel Tiryaki Seçim Kampanyası",
+      path: "/Veysel Tiryaki Seçim Kampanyası",
+      video:"https://player.vimeo.com/video/367871468?title=0&byline=0&portrait=0"
     },
     {
-      id: 8,
-      title: "18 Mart Çanakkale Film",
-      path: "/18 Mart Çanakkale Film",
-      video:"https://player.vimeo.com/video/374993909?title=0&byline=0&portrait=0"
+      id: 9,
+      title: "Ata Alkan Seçim Kampanyası",
+      path: "/Ata Alkan Seçim Kampanyası",
+      video:"https://player.vimeo.com/video/496437773?title=0&byline=0&portrait=0"
     },
- 
-  ];
+    {
+      id: 10,
+      title: "Unicef Eğitim Programı - Gölgesinden Çiz",
+      path: "/Unicef Eğitim Programı - Gölgesinden Çiz",
+      video:"https://player.vimeo.com/video/496420524?title=0&byline=0&portrait=0"
+    },
+    {
+      id: 11,
+      title: "Türkiye İş Kurumu - İstihdam Seferberliği",
+      path: "/Türkiye İş Kurumu - İstihdam Seferberliği",
+      video:"https://player.vimeo.com/video/422947292?title=0&byline=0&portrait=0"
+    },
+    {
+      id: 12,
+      title: "Goldexco.in - İninal Kart",
+      path: "/Goldexco.in - İninal Kart",
+      video:"https://player.vimeo.com/video/478197905?title=0&byline=0&portrait=0"
+    },
+    {
+      id: 13,
+      title: "Enformasyonline.com Video Reklam",
+      path: "/Enformasyonline.com Video Reklam",
+      video:"https://player.vimeo.com/video/389564750?title=0&byline=0&portrait=0"
+    },
+    {
+      id: 14,
+      title: "Unicef - Dünya Çocuk Günü",
+      path: "/Unicef - Dünya Çocuk Günü",
+      video:"https://player.vimeo.com/video/374770649?title=0&byline=0&portrait=0"
+    },
+    {
+      id: 15,
+      title: "Türkiye İş Kurumu - Meslek Danışmanlığı",
+      path: "/Türkiye İş Kurumu - Meslek Danışmanlığı",
+      video:"https://player.vimeo.com/video/422946249?title=0&byline=0&portrait=0"
+    },
+   ];

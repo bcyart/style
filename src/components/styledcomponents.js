@@ -983,57 +983,59 @@ flex-direction:column;
 }
 
 }
-
 #a30{
-  justify-content: flex-end;
-    padding-right:3.8rem;
+margin-left:3.8rem;
 }
 #a29{
-margin-left:3.8rem;
+  justify-content: flex-end;
+    padding-right:3.8rem;
 }
 #a28{
-  justify-content: flex-end;
-    padding-right:3.8rem;
+margin-left:3.8rem;
 }
 #a27{
-  margin-left:3.8rem;
+  justify-content: flex-end;
+    padding-right:3.8rem;
 }
 #a26{
-  justify-content: flex-end;
-    padding-right:3.8rem;
+  margin-left:3.8rem;
 }
 #a25{
-margin-left:3.8rem;
+  justify-content: flex-end;
+    padding-right:3.8rem;
 }
 #a24{
-  justify-content: flex-end;
-    padding-right:3.8rem;
+margin-left:3.8rem;
 }
 #a23{
-margin-left:3.8rem;
+  justify-content: flex-end;
+    padding-right:3.8rem;
 }
 #a22{
-  justify-content: flex-end;
-    padding-right:3.8rem;
+margin-left:3.8rem;
 }
 #a21{
-margin-left:3.8rem;
+  justify-content: flex-end;
+    padding-right:3.8rem;
 }
 #a20{
-  justify-content: flex-end;
-    padding-right:3.8rem;
+margin-left:3.8rem;
 }
 #a19{
-margin-left:3.8rem;
-}
-#a18{
   justify-content: flex-end;
     padding-right:3.8rem;
 }
-#a17{
+#a18{
 margin-left:3.8rem;
 }
+#a17{
+  justify-content: flex-end;
+    padding-right:3.8rem;
+}
 #a16{
+margin-left:3.8rem;
+}
+#a15{
   justify-content: flex-end;
     padding-right:3.8rem;
 }

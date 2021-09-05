@@ -88,6 +88,7 @@ export const droneList = [
       video:"https://player.vimeo.com/video/589299298?title=0&byline=0&portrait=0"
    
     },
+    
     {
       id: 1,
       title: "Karadeniz + Batum ",
@@ -95,6 +96,7 @@ export const droneList = [
       video:"https://player.vimeo.com/video/371158064?title=0&byline=0&portrait=0"
    
     },
+    
     {
       id: 2,
       title: "Bitkisel Yağ Sanayicileri Derneği - Tanıtım Filmi ",
@@ -102,6 +104,7 @@ export const droneList = [
       video:"https://player.vimeo.com/video/589303633?title=0&byline=0&portrait=0"
    
     },
+    
     {
       id: 3,
       title: "Big Dutchman - Sosyal Medya Filmi ",
@@ -109,6 +112,7 @@ export const droneList = [
       video:"https://player.vimeo.com/video/589306536?title=0&byline=0&portrait=0"
    
     },
+    
     {
       id: 4,
       title: "Coffee Break ",
@@ -116,6 +120,7 @@ export const droneList = [
       video: "https://player.vimeo.com/video/375278140?title=0&byline=0&portrait=0"
      
     },
+   
     {
       id: 5,
       title: "ANKA Off Road Tanıtım Filmi",
@@ -123,6 +128,7 @@ export const droneList = [
       video:"https://player.vimeo.com/video/369186855?title=0&byline=0&portrait=0"
    
     },
+    
     {
       id: 6,
       title: "NEF Beauty - Sosyal Medya Filmi ",
@@ -163,6 +169,7 @@ export const droneList = [
       video:"https://player.vimeo.com/video/367866887?title=0&byline=0&portrait=0"
  
     },
+    
     {
       id: 11,
       title: "Big Dutchman",

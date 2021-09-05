@@ -178,8 +178,7 @@ export const droneList = [
       video:"https://player.vimeo.com/video/598307074?title=0&byline=0&portrait=0"
  
     },
-
-  ];
+    ];
 
 
   export const videoAdList = [

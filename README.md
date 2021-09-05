@@ -6,5 +6,6 @@
 </p>
 <h1 align="center">
 bcyart.net  developed by berkay yüksel
+  <br>
  https://github.com/berkay-yuksel
 </h1>

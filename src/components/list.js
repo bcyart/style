@@ -134,8 +134,8 @@ export const droneList = [
     
     {
       id: 7,
-      title: "Barış Pınarı Harekatı TSK Film",
-      path: "Barış Pınarı Harekatı TSK Film",
+      title: "Barış Pınarı Harekatı ",
+      path: "Barış Pınarı Harekatı ",
       video:"https://player.vimeo.com/video/369185498?title=0&byline=0&portrait=0"
  
     },

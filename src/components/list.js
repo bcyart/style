@@ -92,7 +92,7 @@ export const droneList = [
       id: 1,
       title: "Karadeniz + Batum ",
       path: "/Karadeniz + Batum ",
-      video:"<iframe src="https://player.vimeo.com/video/496421591?h=16471b1a0e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>"
+      video:"https://player.vimeo.com/video/371158064?title=0&byline=0&portrait=0"
    
     },
     

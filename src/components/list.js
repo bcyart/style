@@ -99,7 +99,7 @@ export const droneList = [
       id: 2,
       title: "Bitkisel Yağ Sanayicileri Derneği - Tanıtım Filmi ",
       path: "/Bitkisel Yağ Sanayicileri Derneği - Tanıtım Filmi ",
-      video:"https://player.vimeo.com/video/589303633 ?title=0&byline=0&portrait=0"
+      video:"https://player.vimeo.com/video/589303633?title=0&byline=0&portrait=0"
    
     },
     {

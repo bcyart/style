@@ -85,7 +85,7 @@ export const droneList = [
       id: 0,
       title: "UNFPA - kırsala Destek ",
       path: "/UNFPA - kırsala Destek ",
-      video:"https://player.vimeo.com/video/496421591?title=0&byline=0&portrait=0"
+      video:"https://player.vimeo.com/video/589299298?title=0&byline=0&portrait=0"
     },
     
     {

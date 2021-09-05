@@ -85,7 +85,8 @@ export const droneList = [
       id: 0,
       title: "UNFPA - kırsala Destek ",
       path: "/UNFPA - kırsala Destek ",
-      video:"<iframe title="vimeo-player" src="https://player.vimeo.com/video/589299298?h=87f9f915aa" width="640" height="360" frameborder="0" allowfullscreen></iframe>"
+      video:"<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/589299298?h=87f9f915aa&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/589299298">United Nations Population Fund -  Health To Rural Support To Rural Film</a> from <a href="https://vimeo.com/burakcanyuksel">Burak Can Yuksel</a> on <a href="https://vimeo.com">Vimeo</a>.</p>"
    
     },
     

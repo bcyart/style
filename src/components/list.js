@@ -184,7 +184,7 @@ export const droneList = [
       id: 0,
       title: "Unicef Eğitim Programı - Geri Dönüşüm",
       path: "/Unicef Eğitim Programı - Geri Dönüşüm",
-      video:"https://player.vimeo.com/video/371158064?title=0&byline=0&portrait=0"
+      video:"https://player.vimeo.com/video/496421591?title=0&byline=0&portrait=0"
 
     },
     {

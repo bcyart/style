@@ -111,8 +111,8 @@ export const droneList = [
     },
     {
       id: 4,
-      title: "Coffee Break TV Programı",
-      path: "/Coffee Break TV Programı",
+      title: "Coffee Break ",
+      path: "/Coffee Break ",
       video: "https://player.vimeo.com/video/375278140?title=0&byline=0&portrait=0"
      
     },

@@ -181,8 +181,7 @@ export const droneList = [
   ];
 
 
-  export 
-  const videoAdList = [
+  export const videoAdList = [
     {
       id: 0,
       title: "Unicef Eğitim Programı - Geri Dönüşüm",

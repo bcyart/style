@@ -16,29 +16,7 @@ export const droneList = [
       title: "Bulunamadı",
 
     }
-  ];
-
-
-  export const picList = [
-  
-    {
-      id: 0,
-      title: "Düğün Çekimi",
-      path: "/Düğün Çekimi",
-      image:"//live.staticflickr.com/65535/50343195882_44c8fea6fb_k.jpg"
-     
-    },
-    {
-      id: 1,
-      title: "Konser-Etkinlik",
-      path: "/Konser-Etkinlik",
-      image:"https://live.staticflickr.com/65535/50343195687_28185c5b8f_z.jpg"
-   
-    }
-    
  
-  ];
-
 
   export const videoContentList = [
    {

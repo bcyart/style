@@ -594,10 +594,7 @@ VİDEO-İÇERİK
 </Link> 
   </li>
   <li>
-    <Link state={{ comp: "bannerList", dark:{dark} }}  to="/projects">
-    BANNER
-</Link> 
-  </li>
+ 
 
 </ul>
 

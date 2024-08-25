@@ -13,11 +13,6 @@ let keys="default";
     let mycomp=location.state ? location.state.comp : bannerList ;
     let mydark=location.state ? location.state.dark.dark : true;
     switch(mycomp) {
-        case "bannerList":
-            projectitems=bannerList;
-            pagetitle="Banner";
-            keys="grafiktasarım,banner,slider,website,poster,afiş,tasarım,reklam,reklamajansı,photoshop,baskı,tasarım,eticaret,reklamcı,bcyart,burakcanyüksel,mockup"
-          break;
         case "droneList":
             projectitems=droneList;
             pagetitle="Drone";

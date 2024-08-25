@@ -589,11 +589,6 @@ VİDEO-İÇERİK
 </Link> 
   </li>
   <li>
-    <Link state={{ comp: "droneList", dark:{dark} }}  to="/projects">
-    DRONE
-</Link> 
-  </li>
-  <li>
  
 
 </ul>

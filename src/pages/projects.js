@@ -1,7 +1,7 @@
 import React from 'react'
 import {navigate} from 'gatsby'
 import Seo from '../components/seo'
-import { bannerList,droneList,picList,videoContentList,videoAdList,defaultList }from '../components/list'
+import { ,droneList,picList,videoContentList,videoAdList,defaultList }from '../components/list'
 import {GlobalStyle} from '../pages/index'
 import {ProjectsArrow,ProjectsHeader,ProjectsContainer,ProjectItemHeader} from '../components/styledcomponents'
 
